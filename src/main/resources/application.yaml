@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mycpserver
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+        streamable-http:
+          mcp-endpoint: /api/mcp
+server:
+  port: 9999
+#   main:
+#     web-application-type: none
+#     banner-mode: off
+# logging:
+#   pattern:
+#     console:
