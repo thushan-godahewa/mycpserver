@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mycpserver
+  ai:
+    mcp:
+      server:
+        stdio: true
+  main:
+    web-application-type: none
+    banner-mode: off
+logging:
+  pattern:
+    console:
+  file:
+    name: logs/mymcpserver.log

@@ -9,9 +9,3 @@ spring:
           mcp-endpoint: /api/mcp
 server:
   port: 9999
-#   main:
-#     web-application-type: none
-#     banner-mode: off
-# logging:
-#   pattern:
-#     console:
