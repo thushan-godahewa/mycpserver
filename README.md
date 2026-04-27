@@ -28,13 +28,18 @@ npx @modelcontextprotocol/inspector
 
 ## Start MCP Server and Connect
 
-Run the following command to start the MCP server:
+Enter the following command and arguments on MCP Inspector to start the MCP server and connect:
 
 ```bash
 java -jar mycpserver-0.0.1-SNAPSHOT.jar --spring.profiles.active=local
 ```
+**Command:**
+java
 
 **Arguments:**
 
-- `-jar mycpserver-0.0.1-SNAPSHOT.jar` - Specifies the JAR file to run
-- `--spring.profiles.active=local` - Activates the local Spring profile
+- "-jar"
+- "mycpserver-0.0.1-SNAPSHOT.jar" - Specifies the JAR file to run
+- "--spring.profiles.active=local" - Activates the local Spring profile
+
+Note: All arguments must be enclosed withing double quotes and seperated by spaces
